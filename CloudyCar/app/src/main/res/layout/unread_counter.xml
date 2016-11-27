@@ -2,5 +2,12 @@
 <TextView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="wrap_content"
     android:layout_height="match_parent"
+    android:scaleType="fitCenter"
+    android:adjustViewBounds="true"
     android:gravity="center_vertical"
-    android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+    android:text="3"
+    android:textStyle="bold"
+    android:padding="8dp"
+    android:textColor="@color/backgroundBlue"
+    android:background="@drawable/badge_background"/>
+    <!--android:textAppearance="@style/TextAppearance.AppCompat.Body2" />-->
